@@ -9,4 +9,4 @@ services:
     ports:
       - 48000:8000
     volumes:
-      - /dockerdata/apps/icecast/icecast.xml:/etc/icecast2/icecast.xml
+      - /dockerdata/apps/icecast/icecast.xml:/etc/icecast2/icecast.xml,rw
