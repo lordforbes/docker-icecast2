@@ -7,6 +7,6 @@ services:
     container_name: icecast2
     restart: always
     ports:
-      - 8000:8000
+      - 48000:8000
     volumes:
       - /path/to/your/icecast.xml:/etc/icecast2/icecast.xml
